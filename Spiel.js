@@ -16,11 +16,11 @@ function rateZahl() {
 
   // 3. Überprüfen, ob die Zahl zu hoch, zu niedrig oder richtig ist
   if (spielerZahl > zufallszahl) {
-    document.getElementById("ergebnis").textContent = "Die Zahl ist zu hoch!";
+    document.getElementById("ergebnis").textContent = "Die Zahl ist zu hoch :(!";
   } else if (spielerZahl < zufallszahl) {
-    document.getElementById("ergebnis").textContent = "Die Zahl ist zu niedrig!";
+    document.getElementById("ergebnis").textContent = "Die Zahl ist zu niedrig :(!";
   } else {
     // 4. Glückwunsch-Nachricht anzeigen
-    document.getElementById("ergebnis").textContent = `Herzlichen Glückwunsch! Du hast die Zahl ${zufallszahl} in ${versuche} Versuchen erraten!`;
+    document.getElementById("ergebnis").textContent = `Hurra :)! Du hast die Zahl ${zufallszahl} in ${versuche} Versuchen erraten!`;
   }
 }
